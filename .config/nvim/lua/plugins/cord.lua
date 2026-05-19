@@ -8,6 +8,12 @@ return {
       client = "neovim",
       tooltip = "Editing with ⚡Neovim",
     },
+    advanced = {
+       server = {
+          auto_update = false,
+          update = "fetch",
+         },
+       },
     display = {
       theme = "default",
       flavor = "dark",

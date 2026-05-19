@@ -10,6 +10,7 @@ hl.window_rule({ match = { class = "^(brave-app.todoist.com__-Default)$" }, work
 hl.window_rule({ match = { class = "(obsidian)" }, workspace = "8" })
 hl.window_rule({ match = { class = "(spotify)" }, workspace = "9" })
 hl.window_rule({ match = { class = "(vesktop)" }, workspace = "10" })
+hl.window_rule({ match = { class = "(vesktop)" }, opacity = "1.0 1.0" })
 
 -- Fix some dragging issues with XWayland.
 hl.window_rule({
