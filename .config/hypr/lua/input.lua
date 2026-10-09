@@ -3,12 +3,14 @@
 hl.config({
   cursor = {
     inactive_timeout = 1,
+    default_monitor = "DP-2",
   },
   input = {
     kb_options = "compose:ralt",
     follow_mouse = 1,
     numlock_by_default = true,
-    sensitivity = 0.40,
+    sensitivity = 0.0,
+    accel_profile = "flat",
     touchpad = {
       natural_scroll = false,
       scroll_factor = 0.4,

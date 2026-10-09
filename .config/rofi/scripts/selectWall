@@ -1,8 +1,8 @@
 #!/bin/bash
 # wallpaper picker with dynamic color generation
 
-if command -v swww >/dev/null 2>&1; then
-    wallbin=swww
+if command -v awww >/dev/null 2>&1; then
+    wallbin=awww
 elif command -v awww >/dev/null 2>&1; then
     wallbin=awww
 else
@@ -43,7 +43,10 @@ choice=$(menu | rofi -i -dmenu -p "" -config ~/.config/rofi/custom-rofi/config-w
 # find and apply selected wallpaper
 for wp in "${wallpapers[@]}"; do
 	if [[ "$(basename "$wp")" == "$choice" ]]; then
-		"$wallbin" img "$wp" $wallpaper_params
+		focused_monitor=$(hyprctl -j monitors | jq -r '.[] | select(.focused==true).name' | head -n1)
+        : "${focused_monitor:=DP-2}"
+
+        "$wallbin" img -o "$focused_monitor" "$wp" $wallpaper_params
 		matugen image "$wp" -m dark --source-color-index 0
 
 		# update wallpaper symlink for hyprlock

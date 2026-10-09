@@ -69,8 +69,8 @@ run_hooks() {
 set_wallpaper() {
 
     # Check for wallpaper daemon
-    if command -v swww >/dev/null 2>&1; then
-        local wallbin=swww
+    if command -v awww >/dev/null 2>&1; then
+        local wallbin=awww
     elif command -v awww >/dev/null 2>&1; then
         local wallbin=awww
     else

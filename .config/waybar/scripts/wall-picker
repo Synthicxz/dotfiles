@@ -1,8 +1,8 @@
 #!/bin/bash
 # Wallpaper picker - swww only (no theme changes)
 
-if command -v swww >/dev/null 2>&1; then
-    wallbin=swww
+if command -v awww >/dev/null 2>&1; then
+    wallbin=awww
 elif command -v awww >/dev/null 2>&1; then
     wallbin=awww
 else

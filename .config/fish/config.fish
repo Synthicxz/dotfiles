@@ -27,3 +27,6 @@ fish_add_path ~/.spicetify
 
 # Symphony
 set -gx PATH /home/vyrx/dotfiles/install/themes $PATH
+
+# Symphony
+set -gx PATH /home/jordan/symphony/install/themes $PATH

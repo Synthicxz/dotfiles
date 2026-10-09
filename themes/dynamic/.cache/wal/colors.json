@@ -1,27 +1,27 @@
 {
-    "wallpaper": "/home/vyrx/Wallpapers/others/a_sculpture_of_a_man_with_a_face_on_his_head.png",
+    "wallpaper": "/home/jordan/Wallpapers/inbox/wallhaven-85qlrj.jpg",
     "alpha": "100",
     "special": {
-        "background": "#18130b",
-        "foreground": "#ede1d4",
-        "cursor": "#f2be6e"
+        "background": "#18120c",
+        "foreground": "#eee0d5",
+        "cursor": "#f9ba72"
     },
     "colors": {
-        "color0": "#18130b",
+        "color0": "#18120c",
         "color1": "#ffb4ab",
-        "color2": "#f2be6e",
-        "color3": "#b6cea3",
-        "color4": "#dcc3a1",
-        "color5": "#384c2b",
-        "color6": "#55442a",
-        "color7": "#ede1d4",
-        "color8": "#241f17",
+        "color2": "#f9ba72",
+        "color3": "#bdcd9d",
+        "color4": "#e0c1a3",
+        "color5": "#3e4b26",
+        "color6": "#58432b",
+        "color7": "#eee0d5",
+        "color8": "#251e17",
         "color9": "#ffb4ab",
-        "color10": "#f2be6e",
-        "color11": "#b6cea3",
-        "color12": "#dcc3a1",
-        "color13": "#384c2b",
-        "color14": "#55442a",
-        "color15": "#ede1d4"
+        "color10": "#f9ba72",
+        "color11": "#bdcd9d",
+        "color12": "#e0c1a3",
+        "color13": "#3e4b26",
+        "color14": "#58432b",
+        "color15": "#eee0d5"
     }
 }
